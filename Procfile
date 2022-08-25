@@ -1,1 +1,1 @@
-web: mercury run 127.0.0.1:8000
+web: mercury run 0.0.0.0:$PORT
