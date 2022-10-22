@@ -3,16 +3,16 @@ Generates lithology percentages per formation/ stratigraphic zone for drilled we
 
 Deployed as an interactive web application on Heroku cloud application platform: https://lithology-percent-generator.herokuapp.com/
 
-Web app created using Mercury: https://github.com/mljar/mercury
+#### Web app created using Mercury: https://github.com/mljar/mercury
 
-#### Docker deployment:
+### Docker deployment:
 
 Run the following commands via terminal from within the cloned repository:
 
-'''python
+```python
 docker build -t lithology-generator:latest .
-'''
+```
 
-'''python
+```python
 docker run --rm -it -p 8888:8888 lithology-generator:latest
-'''
+```
