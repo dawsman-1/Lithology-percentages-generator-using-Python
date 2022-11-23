@@ -3,9 +3,7 @@ Generates lithology percentages per formation/ stratigraphic zone for drilled we
 
 ### Web app:
 
-Deployed as an interactive web application on Heroku cloud application platform: https://lithology-percent-generator.herokuapp.com/ (may not work after 28/11/2022, see alternative link below)
-
-Alternative Hugging Face app: https://huggingface.co/spaces/dawsond/lithology-percentages-generator
+Deployed as an interactive web application on the Hugging Face cloud application platform: https://huggingface.co/spaces/dawsond/lithology-percentages-generator
 
 Web app created using Mercury: https://github.com/mljar/mercury
 
