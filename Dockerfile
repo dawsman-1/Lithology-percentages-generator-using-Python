@@ -12,7 +12,7 @@ ARG src="./Lithology percentages generator v1.5 DOCKER.ipynb"
 ARG target="/project/"
 
 COPY ./README.md /project
-COPY ./data /project/data
+COPY ./Data /project/Data
 COPY ${src} ${target}
 
 CMD ["jupyter-lab","--ip=0.0.0.0","--allow-root"]
